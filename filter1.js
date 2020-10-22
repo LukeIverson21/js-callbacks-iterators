@@ -22,5 +22,11 @@ const people = [
 const isCool = function(person) {
 	return person.coolnessScore > 20;
 }
+const notCool = function(person) {
+	return person.coolnessScore < 20;
+}
 
 // Your code goes here
+
+console.log(person(isCool));
+console.log(person(notCool));
